@@ -1,0 +1,50 @@
+.live-tutorial {
+  position: fixed; inset: 0; margin: 0; padding: 0; border: 0;
+  width: 100%; height: 100%; max-width: none; max-height: none;
+  overflow: hidden; background: transparent; color: var(--foreground);
+}
+.live-tutorial::backdrop { background: transparent; }
+.live-tutorial-shade { position: absolute; inset: 0; display: block; pointer-events: none; }
+.live-tutorial-spot {
+  stroke: #9ceff4; stroke-width: 1px;
+  filter: drop-shadow(0 0 4px #25f4ee3b);
+}
+.live-tutorial-card {
+  position: absolute; left: 12px; top: 12px; width: min(300px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px); overflow: auto; padding: 16px 18px;
+  border: 1px solid #ead6ec32; border-radius: 20px;
+  background: #1b181ff5; box-shadow: 0 12px 42px #0009;
+}
+.live-tutorial-meta, .live-tutorial-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.live-tutorial-meta span { color: #a7e8ed; font-size: 11px; font-weight: 720; letter-spacing: .05em; }
+.live-tutorial-card h2 { margin: 3px 0 0; font-size: 22px; line-height: 1.12; }
+.live-tutorial-card h2:focus { outline: none; }
+.live-tutorial-card p { margin: 8px 0 12px; color: #d2cbd5; font-size: 13px; line-height: 1.5; }
+.live-tutorial-card button { min-height: 44px; padding-inline: 13px; border: 0; border-radius: 999px; cursor: pointer; font-size: 13px; }
+.live-tutorial-card button:not(.primary-action) { color: #d9d1da; background: transparent; }
+.live-tutorial-card button:not(.primary-action):hover { background: #ffffff10; }
+.live-tutorial-card button:disabled { opacity: .42; cursor: default; }
+.live-tutorial-replay {
+  margin: 0 16px 10px; min-height: 44px; padding-inline: 12px;
+  border: 1px solid var(--line); border-radius: var(--radius-pill);
+  background: transparent; color: var(--foreground); font-size: 12px; cursor: pointer;
+}
+.live-tutorial-replay:hover { background: var(--surface-hover); }
+@media (prefers-reduced-motion: no-preference) {
+  .live-tutorial-shade { animation: tutorial-opacity-in 380ms ease-out both; }
+  .live-tutorial-window {
+    transition: x 340ms ease, y 340ms ease, width 340ms ease, height 340ms ease, rx 340ms ease;
+  }
+  .live-tutorial-spot { transition: x 340ms ease, y 340ms ease, width 340ms ease, height 340ms ease, rx 340ms ease, opacity 250ms ease; }
+  .live-tutorial-card { animation: tutorial-settle 500ms both; }
+  .live-tutorial-card :is(h2, p, .live-tutorial-meta span) { animation: tutorial-opacity-in 280ms ease-out 70ms both; }
+  .live-tutorial.is-leaving .live-tutorial-card { animation: tutorial-exit 150ms ease-in both; }
+  .live-tutorial.is-leaving .live-tutorial-spot { opacity: .18; transition-duration: 140ms; }
+  @keyframes tutorial-opacity-in { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes tutorial-settle {
+    0% { opacity: 0; translate: 0 -10px; animation-timing-function: cubic-bezier(.22,.72,.24,1); }
+    76% { opacity: 1; translate: 0 1px; animation-timing-function: ease-out; }
+    100% { opacity: 1; translate: 0 0; }
+  }
+  @keyframes tutorial-exit { from { opacity: 1; translate: 0 0; } to { opacity: 0; translate: 0 -7px; } }
+}

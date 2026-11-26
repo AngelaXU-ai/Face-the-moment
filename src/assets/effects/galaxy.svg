@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs><linearGradient id="glass" x2=".82" y2="1"><stop stop-color="#fff"/><stop offset=".26" stop-color="#d2f5ff"/><stop offset=".57" stop-color="#7661ff" stop-opacity=".76"/><stop offset=".83" stop-color="#2532a6"/><stop offset="1" stop-color="#d2f5ff"/></linearGradient><linearGradient id="glint" x2=".82" y2="1"><stop stop-color="#fff"/><stop offset=".26" stop-color="#fff"/><stop offset=".57" stop-color="#d2f5ff" stop-opacity=".76"/><stop offset=".83" stop-color="#7661ff"/><stop offset="1" stop-color="#fff"/></linearGradient><radialGradient id="air"><stop stop-color="#7661ff" stop-opacity=".8"/><stop offset=".4" stop-color="#7661ff" stop-opacity=".31"/><stop offset="1" stop-color="#7661ff" stop-opacity="0"/></radialGradient><radialGradient id="light"><stop stop-color="#d2f5ff" stop-opacity=".8"/><stop offset=".4" stop-color="#d2f5ff" stop-opacity=".31"/><stop offset="1" stop-color="#d2f5ff" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="60" cy="60" rx="54" ry="51" fill="url(#air)" opacity=".62"/>
+  <g transform="rotate(-23 60 60)">
+  <circle cx="65.89129144756097" cy="58.278775749814486" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="69.2363952540658" cy="63.09729374923974" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="66.76527744629465" cy="69.65511089442775" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="57.80474455382686" cy="74.47421900487612" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="44.86245900728398" cy="74.27633157918692" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="32.92581561627162" cy="67.47316376599687" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="27.661553917156624" cy="55.09918113724519" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="33.13978232296605" cy="40.78086452660891" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="49.9239334432141" cy="29.67415061255276" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="74.28990952582838" cy="26.681303252588854" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="98.97801438318112" cy="34.54691144127655" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <path d="M64.00 60.00L65.44 60.74L66.60 61.85L67.35 63.29L67.58 64.97L67.19 66.79L66.13 68.64L64.38 70.40L61.96 71.94L58.93 73.13L55.38 73.88L51.44 74.07L47.29 73.63L43.09 72.51L39.06 70.69L35.41 68.19L32.33 65.05L30.02 61.34L28.67 57.18L28.41 52.71L29.34 48.09L31.54 43.50L35.01 39.12L39.71 35.16L45.55 31.80L52.38 29.22L60.00 27.58L68.18 27.00L76.63 27.57L85.05 29.35L93.12 32.34L100.52 36.52L106.93 41.78" fill="none" stroke="#597dff" stroke-width="10" opacity="0.15" stroke-linecap="round"/>
+  <path d="M64.00 60.00L65.44 60.74L66.60 61.85L67.35 63.29L67.58 64.97L67.19 66.79L66.13 68.64L64.38 70.40L61.96 71.94L58.93 73.13L55.38 73.88L51.44 74.07L47.29 73.63L43.09 72.51L39.06 70.69L35.41 68.19L32.33 65.05L30.02 61.34L28.67 57.18L28.41 52.71L29.34 48.09L31.54 43.50L35.01 39.12L39.71 35.16L45.55 31.80L52.38 29.22L60.00 27.58L68.18 27.00L76.63 27.57L85.05 29.35L93.12 32.34L100.52 36.52L106.93 41.78" fill="none" stroke="#597dff" stroke-width="5" opacity="0.37" stroke-linecap="round"/>
+  <path d="M64.00 60.00L65.44 60.74L66.60 61.85L67.35 63.29L67.58 64.97L67.19 66.79L66.13 68.64L64.38 70.40L61.96 71.94L58.93 73.13L55.38 73.88L51.44 74.07L47.29 73.63L43.09 72.51L39.06 70.69L35.41 68.19L32.33 65.05L30.02 61.34L28.67 57.18L28.41 52.71L29.34 48.09L31.54 43.50L35.01 39.12L39.71 35.16L45.55 31.80L52.38 29.22L60.00 27.58L68.18 27.00L76.63 27.57L85.05 29.35L93.12 32.34L100.52 36.52L106.93 41.78" fill="none" stroke="url(#glint)" stroke-width="1.6" opacity="0.92" stroke-linecap="round"/>
+  <circle cx="58.32044526516233" cy="64.73756532488778" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="51.18761592984762" cy="64.7438372538071" r="0.7" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="45.09165621521469" cy="60.04541054570946" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="44.34051782131181" cy="51.90253619913058" r="0.7" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="51.399148474251014" cy="43.55879361369705" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="65.52995766198536" cy="39.04738321624273" r="0.7" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="82.63102867037485" cy="41.558598598728885" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="96.42678296780896" cy="51.97470815902305" r="0.7" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="100.66549607168996" cy="68.15203051753012" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="91.5780669301324" cy="85.29096732698544" r="0.7" fill="#a7eaff" opacity="0.8"/>
+  <circle cx="69.69974058068323" cy="97.35888348454787" r="1.15" fill="#a7eaff" opacity="0.8"/>
+  <path d="M58.00 62.56L56.42 63.12L54.53 63.31L52.47 63.07L50.40 62.37L48.46 61.21L46.82 59.61L45.64 57.61L45.05 55.29L45.17 52.74L46.07 50.10L47.82 47.48L50.41 45.04L53.81 42.91L57.95 41.24L62.71 40.14L67.93 39.74L73.42 40.12L78.96 41.33L84.33 43.40L89.27 46.31L93.54 50.01L96.93 54.42L99.21 59.42L100.22 64.84L99.83 70.51L97.94 76.21L94.54 81.74L89.64 86.87L83.35 91.38L75.81 95.05L67.22 97.71L57.86 99.19" fill="none" stroke="#af70ff" stroke-width="10" opacity="0.15" stroke-linecap="round"/>
+  <path d="M58.00 62.56L56.42 63.12L54.53 63.31L52.47 63.07L50.40 62.37L48.46 61.21L46.82 59.61L45.64 57.61L45.05 55.29L45.17 52.74L46.07 50.10L47.82 47.48L50.41 45.04L53.81 42.91L57.95 41.24L62.71 40.14L67.93 39.74L73.42 40.12L78.96 41.33L84.33 43.40L89.27 46.31L93.54 50.01L96.93 54.42L99.21 59.42L100.22 64.84L99.83 70.51L97.94 76.21L94.54 81.74L89.64 86.87L83.35 91.38L75.81 95.05L67.22 97.71L57.86 99.19" fill="none" stroke="#af70ff" stroke-width="5" opacity="0.37" stroke-linecap="round"/>
+  <path d="M58.00 62.56L56.42 63.12L54.53 63.31L52.47 63.07L50.40 62.37L48.46 61.21L46.82 59.61L45.64 57.61L45.05 55.29L45.17 52.74L46.07 50.10L47.82 47.48L50.41 45.04L53.81 42.91L57.95 41.24L62.71 40.14L67.93 39.74L73.42 40.12L78.96 41.33L84.33 43.40L89.27 46.31L93.54 50.01L96.93 54.42L99.21 59.42L100.22 64.84L99.83 70.51L97.94 76.21L94.54 81.74L89.64 86.87L83.35 91.38L75.81 95.05L67.22 97.71L57.86 99.19" fill="none" stroke="url(#glint)" stroke-width="1.6" opacity="0.92" stroke-linecap="round"/>
+  <circle cx="55.78827753475784" cy="56.983618737043564" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="59.57606357058739" cy="52.158828755494895" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="68.1431928043583" cy="50.299478174650034" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="77.85487046255473" cy="53.6233134859028" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="83.73846547855811" cy="62.16501427609133" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="81.54417981171035" cy="73.47963075654208" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="69.70722543590036" cy="83.34237670043916" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="50.43312570476546" cy="87.2444953920506" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="29.41022552409163" cy="82.17374971712405" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="14.131755670713376" cy="68.02751487988566" r="0.7" fill="#e7c4ff" opacity="0.8"/>
+  <circle cx="11.322162754285594" cy="48.093888162808184" r="1.15" fill="#e7c4ff" opacity="0.8"/>
+  <path d="M58.00 57.44L58.14 56.14L58.87 54.84L60.17 53.64L62.03 52.66L64.35 52.00L67.05 51.75L69.98 51.99L72.99 52.78L75.91 54.12L78.55 56.02L80.74 58.45L82.30 61.33L83.09 64.58L82.98 68.07L81.88 71.67L79.74 75.21L76.56 78.54L72.37 81.49L67.27 83.89L61.39 85.60L54.92 86.49L48.06 86.45L41.07 85.42L34.22 83.36L27.79 80.27L22.05 76.21L17.29 71.26L13.73 65.56L11.60 59.27L11.07 52.60L12.26 45.77L15.21 39.03" fill="none" stroke="#78f0ff" stroke-width="10" opacity="0.15" stroke-linecap="round"/>
+  <path d="M58.00 57.44L58.14 56.14L58.87 54.84L60.17 53.64L62.03 52.66L64.35 52.00L67.05 51.75L69.98 51.99L72.99 52.78L75.91 54.12L78.55 56.02L80.74 58.45L82.30 61.33L83.09 64.58L82.98 68.07L81.88 71.67L79.74 75.21L76.56 78.54L72.37 81.49L67.27 83.89L61.39 85.60L54.92 86.49L48.06 86.45L41.07 85.42L34.22 83.36L27.79 80.27L22.05 76.21L17.29 71.26L13.73 65.56L11.60 59.27L11.07 52.60L12.26 45.77L15.21 39.03" fill="none" stroke="#78f0ff" stroke-width="5" opacity="0.37" stroke-linecap="round"/>
+  <path d="M58.00 57.44L58.14 56.14L58.87 54.84L60.17 53.64L62.03 52.66L64.35 52.00L67.05 51.75L69.98 51.99L72.99 52.78L75.91 54.12L78.55 56.02L80.74 58.45L82.30 61.33L83.09 64.58L82.98 68.07L81.88 71.67L79.74 75.21L76.56 78.54L72.37 81.49L67.27 83.89L61.39 85.60L54.92 86.49L48.06 86.45L41.07 85.42L34.22 83.36L27.79 80.27L22.05 76.21L17.29 71.26L13.73 65.56L11.60 59.27L11.07 52.60L12.26 45.77L15.21 39.03" fill="none" stroke="url(#glint)" stroke-width="1.6" opacity="0.92" stroke-linecap="round"/>
+  </g>
+  <circle cx="60" cy="60" r="28" fill="url(#air)" opacity="1"/>
+  <circle cx="60" cy="60" r="17" fill="url(#light)" opacity="1"/>
+  <g transform="translate(60 60) scale(1.13)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#fff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <g transform="translate(36 47) scale(0.55)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#aafaff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <g transform="translate(83 54) scale(0.67)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#dfbaff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <g transform="translate(17 31) scale(0.6)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#dcbcff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <circle cx="26" cy="18" r="0.882" fill="#8fe9ff" opacity="0.83"/>
+  <circle cx="79" cy="14" r="1.176" fill="#fff" opacity="0.83"/>
+  <g transform="translate(102 26) scale(0.8)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#dcbcff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <circle cx="109" cy="49" r="1.078" fill="#8fe9ff" opacity="0.83"/>
+  <circle cx="102" cy="81" r="1.47" fill="#fff" opacity="0.83"/>
+  <g transform="translate(87 104) scale(0.6)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#dcbcff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <circle cx="28" cy="100" r="1.078" fill="#8fe9ff" opacity="0.83"/>
+  <circle cx="16" cy="83" r="1.96" fill="#fff" opacity="0.83"/>
+  <g transform="translate(13 57) scale(0.48)">
+  <path d="M0-8Q.7-.8 5 0Q.7.7 0 8Q-.7.7-5 0Q-.7-.8 0-8Z" fill="#dcbcff" />
+  <circle cx="0" cy="0" r="1.1" fill="#fff" opacity="1"/>
+  </g>
+  <circle cx="39" cy="13" r="0.98" fill="#8fe9ff" opacity="0.83"/>
+  <circle cx="96" cy="95" r="0.882" fill="#fff" opacity="0.83"/>
+</svg>

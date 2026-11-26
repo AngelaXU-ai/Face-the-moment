@@ -1,0 +1,31 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+coverage/
+.vite/
+
+# Local research inputs and analysis artifacts must never be published.
+references/
+work/
+
+# Local environment files
+.env*
+
+*.local
+.DS_Store
+Thumbs.db
+
+
+# Local release previews, packaging metadata, and editor settings.
+/outputs/
+/docs/reference-analysis.md
+/.vercel/
+/.idea/
+/.vscode/
+/.npmrc
+*.tsbuildinfo
+npm-debug.log*
+
+# Private development copy of the remote MediaPipe model.
+/public/mediapipe/models/face_landmarker.task
